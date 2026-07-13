@@ -3,9 +3,10 @@
 # include <stdio.h>
 int main (){
     int a,b,c,d;
+    printf("Enter a three-digit number: ");
     scanf("%d",&a);
     b=a%10;
     c=a/100;
     d=a-(5*(b%2)*(c%2));
-    printf("%d",d);
+    printf("RESULT: %d",d);
 }

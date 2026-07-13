@@ -3,10 +3,11 @@
 #include <stdio.h>
 int main (){
     int a,b,c,d,e,f;
+    printf("Enter a four-digit number: ");
     scanf("%d",&a);
     b=a%10;
     c=(a/10)%10;
     d=a/100;
 
-    printf("%d",d*100 +b*10+c);
+    printf("RESULT: %d",d*100 +b*10+c);
 } 

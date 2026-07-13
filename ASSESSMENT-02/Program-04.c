@@ -3,11 +3,12 @@
 #include <stdio.h>
 int main (){
     int a ;
+    printf("Enter a number: ");
     scanf("%d",&a);
     if (a>50){
-        printf("1");
+        printf("RESULT: 1");
     }
-    else if (a<=50){
-         printf("0");
+    else {
+         printf("RESULT: 0");
+         }
         }
-    }

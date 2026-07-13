@@ -3,8 +3,9 @@
 #include <stdio.h>
 int main (){
     int a,b,c;
+    printf("Enter a three-digit number: ");
     scanf("%d",&a);
     b=a%10;
     c=a/100;
-    printf("%d",c*100 + b);
+    printf("RESULT: %d",c*100 + b);
 }

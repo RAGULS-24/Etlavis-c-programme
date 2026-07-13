@@ -3,9 +3,10 @@
 #include <stdio.h>
 int main (){
     int a;
+    printf("Enter a two-digit number: ");
     scanf("%d",&a);
     if ((a%10)<(a/10)) {
-        printf("1");
+        printf("RESULT : 1");
     }
-    else printf("0");
+    else printf("RESULT : 0");
 }

@@ -3,8 +3,9 @@
 #include <stdio.h>
 int main (){
     int a,b,c;
+    printf("Enter a two-digit number: ");
     scanf("%d",&a);
     b=(a/10)+(a%10);
     c=a-(5*(b%2));
-    printf("%d",c);
+    printf("RESULT: %d",c);
 }

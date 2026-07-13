@@ -3,6 +3,7 @@
 #include <stdio.h>
 int main (){
     int a ;
+    printf("Enter a two-digit number: ");
     scanf("%d",&a);
-    printf("%d",(a%10) + (a/10));
+    printf("RESULT: %d",(a%10) + (a/10));
 }

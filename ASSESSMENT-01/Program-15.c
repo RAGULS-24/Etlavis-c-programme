@@ -3,7 +3,9 @@
 #include <stdio.h>
 int main (){
     int a,b;
+        
+    printf("Enter a two-digit number: ");   
     scanf("%d",&a);
     b=a/10;
-    printf("%d",b*10);
+    printf("RESULT: %d",b*10);
 }

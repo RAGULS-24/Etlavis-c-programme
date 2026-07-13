@@ -2,12 +2,12 @@
 #include <stdio.h>
 int main() {
     int a;
+    printf("Enter a four-digit number: ");
     scanf("%d", &a);
-
     if (a/100==a%100) {
-        printf("1");
+        printf("RESULT : 1");
     } else {
-        printf("0");
+        printf("RESULT : 0");
     }
 
     return 0;

@@ -3,6 +3,7 @@
 #include <stdio.h>
 int main (){
     int a,sum,b=0;
+    printf("Enter a number: ");
     scanf("%d",&a);
     sum=a%10 +(a/10)%10 +a/100;
 
@@ -16,6 +17,6 @@ int main (){
       }
       sum=b;
     }
-  printf("%d",b);
+  printf("RESULT: %d",b);
 
 }
