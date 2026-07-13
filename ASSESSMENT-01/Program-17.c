@@ -3,7 +3,8 @@
 #include <stdio.h>
 int main (){
  int a,b;
+printf("Enter a three-digit number: ");
  scanf("%d",&a);
  b=a/10;
- printf("%d",(b*10)+2);
+ printf("RESULT: %d",(b*10)+2);
 }

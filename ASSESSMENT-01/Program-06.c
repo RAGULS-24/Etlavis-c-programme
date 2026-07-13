@@ -3,7 +3,8 @@
 #include <stdio.h>
 int main (){
     int a,ans;
+    printf("Enter a two-digit number: ");
     scanf("%d",&a);
     ans=a%10;
-    printf("%d",ans);
+    printf("RESULT: %d",ans);
 }
