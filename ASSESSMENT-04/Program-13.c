@@ -9,14 +9,11 @@ int main ()
     scanf("%d",&a);
     last = a%10;
     temp=a;
-    while (a>0){
+    while (temp>0){
         temp/=10;
         c++;
     }
-    b=pow(2,c);
+    b=pow(10,c-1);
     middle=(a%b)/10;
     first=(a/b);
-    printf("%d",a);
-    printf("%d",b);
-    printf("%d",middle);
-}  
+}
