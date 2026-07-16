@@ -1,10 +1,9 @@
-// Write a loop program to print 5 to 1 on one by one .
+// write a loop program to print 1 to 5 one by one.
 
-# include <stdio.h>
+#include <stdio.h>
 int main (){
-    int i ;
-    for (i=5; i>0; i--){
-    printf("%d\n",i);
-    }
-    return 0;
+    int i=5;
+        for (i=5; i>=1; i--){
+            printf("%d\n",i);
+        }
 }

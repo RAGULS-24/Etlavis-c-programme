@@ -1,11 +1,10 @@
-// Write a loop program to print sum of 1 to 5.
+// write a loop program to print sum of 1 to 5.
 
-# include <stdio.h> 
+#include <stdio.h>
 int main (){
-    int sum=0,i;
-    for (i=1; i<=5; i++){
-    sum+=i;
+   int i=1,sum=0;
+     for(i=1; i<=5; i++){
+        sum+=i;
      }
      printf("%d",sum);
-    return 0;
 }
