@@ -1,4 +1,4 @@
-/* Write a program to get two numbers from user and print the HCF of those numbers.
+//Write a program to get two numbers from user and print the HCF of those numbers.
 #include <stdio.h>
 int main (){
     int a,b,lmc=0,hcf=0;
@@ -17,11 +17,11 @@ int main (){
         }
         lmc++;
     }
-    // to find HCF W.K.T a*b=lmc*hcf then, hcf=a*b/lmc.
+    // To find HCF W.K.T a*b=LMC*HCF then, HCF=a*b/lmc.
    hcf=(a*b)/lmc;
    printf("%d",hcf);
-}*/
-#include <stdio.h>
+}
+/*#include <stdio.h>
 
 int main() {
     int a, b, i = 1, hcf = 1;
@@ -42,3 +42,4 @@ loop:
 
     return 0;
 }
+*/

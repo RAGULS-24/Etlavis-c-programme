@@ -18,5 +18,5 @@ int main (){
             break;
         }
         lmc++;
-    }
+    }    
 }

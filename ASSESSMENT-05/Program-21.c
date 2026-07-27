@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 int main (){
- long long a,digits=0,count=0 ;
+ int a,digits=0,count=0 ;
     printf("Enter a number:");
     scanf("%d",&a);
 
