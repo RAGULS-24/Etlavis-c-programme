@@ -2,10 +2,12 @@
 
 #include <stdio.h>
 int main (){
-    int i,odd;
-    for (i=0; i<=9; i++){
-        if((i%2)!=0){
-        printf("%d\n",i);
+    int i=1;
+    loop: if (i<=9) {
+        if (i%2!=0){
+          printf("%d\n",i);
+         }
+         i++;
+         goto loop;
         }
     }
-}

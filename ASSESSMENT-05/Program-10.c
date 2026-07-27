@@ -1,14 +1,12 @@
-// Write a program to get a number from user print the total number of digits in that number.
+// Write a loop program to print the sum of two-digit odd number, whose ten's digit is 7 ?
 
 #include <stdio.h>
 int main (){
-    int a,i,ans=0;
-    printf("enter a number : ");
-    scanf("%d",&a);
-    for (i=1; i<=a; i ++){
-        a/10;
-        ans ++;
-        a=a/10;
+    int i,sum=0;
+    for (i=70; i<=79; i++){
+        if (i%2!=0) {
+           sum=sum+i;
+        }
     }
-    printf("%d",ans);
+    printf("%d",sum);
 }

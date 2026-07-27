@@ -3,8 +3,10 @@
 #include <stdio.h>
 int main (){
    int i=1,sum=0;
-     for(i=1; i<=5; i++){
-        sum+=i;
+     loop:if (i<=5) {
+      sum=sum+i;
+      i++;
+      goto loop ;
      }
      printf("%d",sum);
 }

@@ -1,26 +1,24 @@
-//Write a program to get a number from user and if the last digit of the number is even print the same number. If the last digit of the number is odd, then subtract 1 from the last digit and print the number. (Note: Last digit -MSB)
+// Write a program to get a number from user and interchange the first and last digits and print the result.
+
 #include <stdio.h>
 #include <math.h>
-int main(){
-    int a,b,temp,digits=0,first,divisor,balance=0;
-    printf("enter a number: ");
+int main ()
+{
+    int a,temp,digits=0,last=0,first=0,divisor=0,middle,reversed=0;
+    printf("enter a number : ");
     scanf("%d",&a);
-   temp=a;
-    while (temp>0){
-        temp/=10;
-        digits++;
-    }
-    divisor=pow(10,digits-1);
-    first=a/divisor;
-    b=first%2;
-    balance=a%divisor;
-    if (b==0)
+  temp=a;
+    while (temp>0)
     {
-      printf("%d",a); /* code */
+         digits++;
+         temp/=10;
     }
-    else if (a!=0){
-        first+=1;
-        a=first*divisor+balance;
-        printf("%d",a);
-    }
+   divisor=pow(10,digits-1);
+   
+   first=a/divisor;
+   middle=(a%divisor)/10;
+   last=a%10;
+
+   reversed=last*divisor+middle*10+first;
+   printf("%d",reversed);
 }
